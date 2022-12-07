@@ -1,0 +1,32 @@
+{
+    "name": "Title display",
+    "description": "title of current tab",
+    "version": "1.0",
+    "manifest_version": 3,
+    "permissions": [
+        "storage", 
+        "declarativeContent",
+        "tabs",
+        "activeTab",
+        "scripting",
+        "background",
+        "activeTab",
+        "desktopCapture"
+    ],
+     
+    "host_permissions": [
+        "<all_urls>"
+    ],
+   
+    "externally_connectable": {
+        "matches": ["*://localhost/*"]
+      }, 
+    "action": {
+        "default_popup": "popup.html"
+    },
+    "icons": {
+        "16": "/title.png",
+        "32": "/title.png",
+        "48": "/title.png"
+    }
+}

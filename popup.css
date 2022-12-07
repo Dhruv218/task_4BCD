@@ -1,0 +1,43 @@
+body {
+  background-image: url("ba.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrapper,
+h2 {
+
+  width: 300px;
+
+  background: linear-gradient(to right,
+      hsl(98 100% 62%),
+      hsl(204 100% 59%));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+  font-size: xx-large;
+}
+
+div button {
+  padding: 5px;
+  background: transparent;
+  color: white;
+  margin: 10px auto;
+  border: 2px solid wheat;
+  font-weight: 800;
+  font-size: initial;
+  border-radius: 5px;
+}
+
+button:hover {
+  border: 2px solid white;
+  cursor: pointer;
+
+}
